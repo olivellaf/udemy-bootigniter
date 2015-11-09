@@ -5,6 +5,10 @@ body{
 	background: url('../img/texture.png') top left repeat;
 }
 
+.wrap {
+    padding: 50px 0 50px 0;
+}
+
 .wrap{
 	padding-top: 50px;
 	padding-bottom:50px;
@@ -41,18 +45,73 @@ h2{
 }
 
 
+/* == COURSE TARGET == */
+#course-target {
+    background-color: #BF3E11;
+    color: white;
+}
 
 
+/* == COURSE FEATURES == */
+#course-features {
+    background-color: white;
+    text-align: center;
+}
+
+#course-features i {
+    margin-top: 30px;
+}
 
 
+/* == INSTRUCTOR == */
+#instructor .left-side {
+    text-align: center;
+}
+
+.badge.social {
+    background: #95A5A6;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 5px;
+    padding: 0;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    color: white;
+}
+
+.badge.social.twitter:hover {
+    background: #55ACEE;
+}
+.badge.social.linkedin:hover {
+    background: #4875B4;
+}
+.badge.social.web:hover {
+    background: #26C281;
+}
 
 
+/* == PROMOTIONAL VIDEO == */
+#promo-video {
+    background-color: #563d7c;
+    color: white;
+}
 
+/* == FOOTER == */
+#footer {
+    padding: 20px;
+    background-color: #22313f;
+    color: white;
+}
 
+#footer a {
+    color: #f5ab35;
+}
 
-
-
-
-
-
+#footer a:hover {
+    color: #f9690e;
+}
 
