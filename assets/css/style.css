@@ -115,3 +115,26 @@ h2{
     color: #f9690e;
 }
 
+
+/** *** lecture.html */
+/* == DISCUSSIONS == */
+#discussions {
+    background: white;
+}
+
+#discussions #btn-form, #discussions #btn-form-answer {
+    text-align: right;
+    margin-top: 5px;
+}
+
+
+/* *** admin_course.html */
+/* == ADMIN COURSE == */
+#admin-course .container {
+    background: white;
+    min-height: 600px;
+}
+
+#admin-course .panel-heading a {
+    color: white;
+}
