@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" href="assets/img/favicon.ico"/>
+    <title>Aprende Bootstrap 3 y Code Igniter</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Raleway' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+
+        <div class="container">
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button><!-- .navbar-toggle -->
+
+                <a class="navbar-brand" href="">
+                    <img src="assets/img/logo.png" alt="Aprende Bootstrap 3 y CodeIgniter">
+                </a><!-- .navbar-brand -->
+
+            </div><!-- .navbar-header -->
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Ferran Olivella <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-graduation-cap"></i>
+                                    Administrar curso
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-user"></i>
+                                    Editar perfil
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-sign-out"></i>
+                                    Salir
+                                </a>
+                            </li>
+
+                        </ul><!-- .dropdown-menu -->
+
+                    </li><!-- .dropdown -->
+                </ul>
+            </div><!-- .collapse .navbar-collapse -->
+
+        </div><!-- .container -->
+
+    </nav><!-- .navbar -->
+
+
+
+</header>
+<!-- END HEADER -->
+
+
+<!-- TITLE & ENROLL -->
+<section id ="title-enroll">
+
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <h1>Aprende Bootstrap 3 y CodeIngniter</h1>
+            <p>Aprende paso a paso a crear tus propias <strong>Aplicaciones Web</strong> y conviértete en un <strong>Ninja Developer</strong></p>
+        </div><!-- .container-fluid -->
+    </div><!-- .jumbotron -->
+
+</section><!-- #title-enroll -->
+<!-- END TITLE & ENROLL -->
+
+<!-- ADMIN COURSE -->
+<section class="wrap" id="admin-course">
+    <div class="container">
+        <h1>Administración del Curso:</h1>
+
+        <p class="lead">Aquí podrás añadir nuevas secciones y sus respectivas clases, así como editar o eliminar las ya existentes</p>
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <p><li id="btn-TabAdmin" class="btn btn-info" href="#form-add-section" aria-controls="form-add-section"
+                        data-toggle="tab">Añadir Sección</li></p>
+
+                <!-- NAV TABS -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li id="btn-TabAdmin1" class="active" role="presentation">
+                        <a href="#form-list" aria-controls="form-list"
+                           data-toggle="tab" role="tab">Editar</a>
+                    </li>
+
+                    <li id="btn-TabAdmin2" role="presentation">
+                        <a href="#form-add-section" aria-controls="form-add-section"
+                           data-toggle="tab" role="tab">Sección</a>
+                    </li>
+
+                    <li id="btn-TabAdmin3" role="presentation">
+                        <a href="#form-add-lecture" aria-controls="orm-add-lecture"
+                           data-toggle="tab" role="tab">Classe</a>
+                    </li>
+                </ul><!-- tablist -->
+                <!-- END NAV TABS -->
+
+                <br/>
+
+                <!-- TAB CONTENT -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="panel panel-primary tab-pane active" id="form-list">
+
+                        <!-- SECTION COURSE -->
+                        <div class="panel-heading">
+                            Sección 1: Introducción <span class="pull-right">
+                            <a href="">Añadir Classe</a> | <a class="" href="">Editar</a> | <a href="">Eliminar</a>
+                        </span>
+                        </div><!-- .panel-heading -->
+
+                        <ul class="list-group">
+                            <li class="list-group-item" >
+                                <i class="fa-fa-play-circle"></i>
+                                Classe 1: Lorem Ipsum és un text de farciment usat per la indústria de la tipografia.
+                                <small class="text-primary">(02:48)</small> <span class="pull-right"><a href="">Editar</a> | <a
+                                    href="">Eliminar</a></span>
+                            </li>
+                            <li class="list-group-item" >
+                                <i class="fa-fa-play-circle"></i>
+                                Classe 2: Lorem Ipsum és un text de farciment usat per la indústria de la tipografia.
+                                <small class="text-primary">(02:48)</small> <span class="pull-right"><a href=" ">Editar</a> | <a
+                                    href="">Eliminar</a></span>
+                            </li>
+                            <li class="list-group-item" >
+                                <i class="fa-fa-play-circle"></i>
+                                Classe 3: Lorem Ipsum és un text de farciment usat per la indústria de la tipografia.
+                                <small class="text-primary">(02:48)</small> <span class="pull-right"><a href=" ">Editar</a> | <a
+                                    href="">Eliminar</a></span>
+                            </li>
+                            <li class="list-group-item" >
+                                <i class="fa-fa-play-circle"></i>
+                                Classe 4: Lorem Ipsum és un text de farciment usat per la indústria de la tipografia.
+                                <small class="text-primary">(02:48)</small> <span class="pull-right"><a href=" ">Editar</a> | <a
+                                    href="">Eliminar</a></span>
+                            </li>
+                            <li class="list-group-item" >
+                                <i class="fa-fa-play-circle"></i>
+                                Classe 5: Lorem Ipsum és un text de farciment usat per la indústria de la tipografia.
+                                <small class="text-primary">(02:48)</small> <span class="pull-right"><a href=" ">Editar</a> | <a
+                                    href="">Eliminar</a></span>
+                            </li>
+                        </ul><!-- .list-group -->
+
+                    </div><!-- #form-list -->
+
+                    <div role="tabpanel" class="panel panel-default tab-pane" id="form-add-section">
+                        <div class="panel-body">
+                            <h3>Añadir nueva sección</h3>
+
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="inputSectionTitle">Título de la Sección:</label>
+                                    <input class="form-control" type="text" id="inputSectionTitle"
+                                           placeholder="Escribe el título de la sección..."/>
+                                </div>
+
+                                <button class="btn btn-success" type="button">Añadir</button> o
+                                <a href="">Cancelar</a>
+                            </form>
+                        </div>
+
+                    </div><!-- #form-add-section -->
+
+                    <div role="tabpanel" class="panel panel-default tab-pane" id="form-add-lecture">
+                        <div class="panel-body">
+                            <h3>Añadir nueva clase</h3>
+
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="inputLectureTitle">Título:</label>
+                                    <input type="text" class="form-control" id="inputLectureTitle"
+                                            placeholder="Escribe el título de la lección"/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputLectureDescription">Descripción:</label>
+                                    <textarea name="" id="inputLectureDescription" class="form-control"
+                                              placeholder="Escribe una descripción de esta lección" rows="3"></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputLectureVideo">URL del vídeo:</label>
+                                    <input type="text" class="form-control" id="inputLectureVideo"
+                                           placeholder="Escribe la URL de Youtube del vídeo..."/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputLectureVideo">Duración de la Lección:</label>
+                                    <input class="form-control" type="text" id="inputLectureDuration"
+                                           placeholder="Escribe los minutos y segundos que dura el vídeo con formato MM::SS. Ej. 06:31"/>
+                                </div>
+
+                                <button class="btn btn-info">Añadir</button> o <a href="">Finalizar</a>
+                            </form>
+                        </div><!-- .panel-body -->
+                    </div><!-- #form-add lecture -->
+                </div>
+
+                <!-- END TAB CONTENT -->
+
+
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+</section>
+<!-- END ADMIN COURSE -->
+
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="container-fluid">
+        <p>BootIgniter - Aprende Bootstrap 3 y CodeIgniter &copy; 2015 | Made with <i class="fa fa-heart"></i> by
+            <li href="http://es.linkedin.com/in/ferranolivella" target="_blank"> Ferran Olivella</li></p>
+    </div><!-- .container-fluid -->
+</footer>
+<!-- FOOTER -->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script>
+    $('#btn-TabAdmin').click(function() {
+                $('#btn-TabAdmin1').removeClass();
+                $('#btn-TabAdmin3').removeClass();
+                $('#btn-TabAdmin2').removeClass().addClass("active");
+            }
+    )
+</script>
+</body>
+</html>
